@@ -194,7 +194,7 @@ span::before {
 
 .nav-link a {
   position: relative;
-  top: 50px;
+  top: 60px;
   text-decoration: none;
   color: #fff;
   font-weight: lighter;
@@ -225,10 +225,10 @@ span::before {
 .nav-item-wrapper::after {
   content: "";
   position: absolute;
-  top: 55px;
+  top: 50px;
   left: 0;
   width: 500px;
-  height: 100px;
+  height: 60px;
   background-color: black;
   margin: 0 auto;
   transition: 1s;
