@@ -47,8 +47,9 @@ background-color:#dcff7d;
 
 
 .site-logo {
-  font-size: 18px;
+  font-size: 30px;
   color: #000;
+  font-family: Futura-heavy;
 }
 
 .header {
@@ -233,6 +234,11 @@ span::before {
 .nav-link a:hover::before{
   width: 120%;
 }
+
+.links a{
+color: #777777;
+font-family: Futura-heavy;
+} 
 
 .nav-item-wrapper::after {
   content: "";
