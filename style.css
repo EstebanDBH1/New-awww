@@ -59,7 +59,7 @@ background-color:#dcff7d;
   transform: translate(-50%, -50%);
   font-weight: 400;
   text-align: center;
-  line-height:0.8;
+  line-height:1;
 }
 
 
@@ -171,7 +171,7 @@ span::before {
   font-weight: 300;
   margin-top: -0.2em;
   font-size: 120px;
-  font-family: Futura-book;
+  font-family: Futura-heavy;
 }
 
 .nav-item-wrapper::after {
@@ -195,7 +195,9 @@ span::before {
 
 .nav-socials a {
   text-decoration: none;
-  color: #fff;
+  color: #777777;
+  font-family: Futura-book;
+
 }
 
 .nav-link {
@@ -222,7 +224,7 @@ span::before {
   left: -10%;
   width: 0%;
   height: 5px;
-  background-color: white;
+  background-color: #dcff7d;
   transition: all ease 0.5s;
   mix-blend-mode: difference;
 }
