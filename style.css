@@ -10,6 +10,11 @@
     src: url("fonts/FuturaBook.otf");
 }
 
+@font-face {
+    font-family: Futura-heavy;
+    src: url("fonts/FuturaHeavy.otf");
+}
+
 
 .container {
   width: 100%;
@@ -199,7 +204,7 @@ span::before {
   color: #fff;
   font-weight: lighter;
   font-size: 40px;
-  font-family: Futura-book;
+  font-family: Futura-heavy;
   letter-spacing: 2px;
 }
 
@@ -257,7 +262,7 @@ span::before {
   left: 50%;
   transform: translate(-50%, -50%);
   text-transform: uppercase;
-  font-size: 1.5em;
+  font-size: 1em;
   font-family: Futura-book;
 }
 
