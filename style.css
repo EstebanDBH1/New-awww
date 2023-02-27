@@ -395,7 +395,7 @@ span::before {
   }
 
   .nav-footer {
-    display: none;
+   /* display: none;*/
   }
 }
 
